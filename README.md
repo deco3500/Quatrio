@@ -73,9 +73,9 @@ Outside of the workshop hours that this course has provided us with to meet up, 
 
 ===================================
 ##Tags##
-`#CSCW` `#interaction` `#discussion` `#debate` `#controversial`
+Social and Mobile: `#CSCW` `#interaction` `#discussion` `#debate` `#controversial`
 
-`#humanrights` `#global` `#bias`
+Journalism and News: `#humanrights` `#global` `#bias`
 
 
 
