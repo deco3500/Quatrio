@@ -56,38 +56,25 @@ Outside of the workshop hours that this course has provided us with to meet up, 
 
 ===================================
 ##Key Dates##
-Oral Pitch - 2/09
+* Oral Pitch - 2/09
+* Project Proposal - 5/09
 
-Project Proposal - 5/09
+* Research - 14/09
+* Progress Presentation - 16/09
 
-Research - 14/09
+* Design: Mockups - 22/09
+* Design: Non-functional prototypes - 23/09 (in workshop)
+* Build: Facts boards- 7/10
+* Build: Website outline - 7/10
+* Build: Database - 7/10
+* Progress Presentation - 7/10
 
-Progress Presentation - 16/09
+* Build: Connect frontend and back-end of website - 12/10
+* Build: Debating system - 21/10
+* Progress Presentation - 21/10
 
-
-Design: Mockups - 22/09
-
-Design: Non-functional prototypes - 23/09 (in workshop)
-
-Implement/Build: Facts boards- 7/10
-
-Implement/Build: Website outline - 7/10
-
-Implement/Build: Database - 7/10
-
-Progress Presentation - 7/10
-
-
-Implement/Build: Connect frontend and back-end of website - 12/10
-
-Implement/Build: Debating system - 21/10
-
-Progress Presentation - 21/10
-
-
-Testing - 25/10
-
-Final URL and optional presentation - 28/10
+* Testing - 25/10
+* Final URL and optional presentation - 28/10
 
 ===================================
 ##Tags##
