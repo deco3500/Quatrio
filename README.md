@@ -52,7 +52,9 @@ Outside of the workshop hours that this course has provided us with to meet up, 
 
 ===================================
 ##Tags##
-'#Humanrights, #Bias, #Facts, #Discussion, #Debate'
+`#CSCW` `#interaction` `#discussion` `#debate` `#controversial`
+
+`#humanrights` `#global` `#bias`
 
 
 
