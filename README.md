@@ -26,7 +26,7 @@ Poor performance of any team members must be resolved through communication, if 
 
 ==============================================
 ##Communications##
-Outside of the workshop hours that this course has provided us with to meet up, Quatrio will be meeting at UQ on Thursdays 12-2pm most likely around GP South. We have decided that our primary communication will be made through Facebook; the group page and a group conversation in Messenger, as Facebook seems to have been something we have all adapted into our everyday lives. As for the files and documents, they have been created through Google Drive so that editing will be easy for everyone to access and collaborate at any one time. The file name conventions has not been particularly set to anything uniform, however when submitting possibly “DECO3500Quatrio_docname.filetype”.
+Outside of the workshop hours that this course has provided us with to meet up, Quatrio will be meeting at UQ on Thursdays 12-2pm most likely around GP South. We have decided that our primary communication will be made through Facebook; the group page and a group conversation in Messenger, as Facebook seems to have been something we have all adapted into our everyday lives. As for the files and documents, they have been created through Google Drive so that editing will be easy for everyone to access and collaborate at any one time. The file name conventions has not been particularly set to anything uniform, however when submitting possibly “DECO3500Quatrio_*docname*.*filetype*”.
 
 ===========================================
 ##Plan##
