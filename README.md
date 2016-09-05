@@ -54,8 +54,7 @@ Outside of the workshop hours that this course has provided us with to meet up, 
    * The second and largest sprint is the build phase. This cycle is where the design will be implemented. All team members are required to participate in the build phase
    * The third phase is the testing phase where the product will undergo immense testing. All bugs, errors and user complaints will be fixed as well in this phase
 
-===================================
-##Key Dates##
+###Key Dates###
 * Oral Pitch - 2/09
 * Project Proposal - 5/09
 * Research - 14/09
