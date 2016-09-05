@@ -55,6 +55,28 @@ Outside of the workshop hours that this course has provided us with to meet up, 
    * The third phase is the testing phase where the product will undergo immense testing. All bugs, errors and user complaints will be fixed as well in this phase
 
 ===================================
+##Key Dates##
+Oral Pitch - 2/09
+Project Proposal - 5/09
+
+Research - 14/09
+Progress Presentation - 16/09
+
+Design: Mockups - 22/09
+Design: Non-functional prototypes - 23/09 (in workshop)
+Implement/Build: Facts boards- 7/10
+Implement/Build: Website outline - 7/10
+Implement/Build: Database - 7/10
+Progress Presentation - 7/10
+
+Implement/Build: Connect frontend and back-end of website - 12/10
+Implement/Build: Debating system - 21/10
+Progress Presentation - 21/10
+
+Testing - 25/10
+Final URL and optional presentation - 28/10
+
+===================================
 ##Tags##
 `#CSCW` `#interaction` `#discussion` `#debate` `#controversial`
 
