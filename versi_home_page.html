@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Versi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link href="style.css" type="text/css" rel="stylesheet"/>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="versi_home_page.html">Home</a></li>
+        <li><a href="versi_event_page.html">Events</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Topic
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="versi_topic_page.html">Euthanasia</a></li>
+          <li><a href="versi_topic_page.html">Education</a></li>
+          <li><a href="versi_topic_page.html">Abortion</a></li> 
+          <li><a href="versi_topic_page.html">Healthcare</a></li>
+          <li><a href="versi_topic_page.html">Refugees</a></li> 
+          <li><a href="versi_topic_page.html">Disability Care</a></li> 
+        </ul>
+      </li>
+        <li><a href="versi_debate_landing_page.html">Debates</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#logoutModal">Logout</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" data-toggle="modal" data-target="#basicModal"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" ></span> Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+<div class="jumbotron text-center">
+  
+  <div class="container-fluid text-center">
+    <h2><img src="logo.png"></h2>
+    <p>Welcome to Versi</p>
+  </div>
+</div>
+
+<div id="topics" class="container">
+  <div class="row text-center">
+    <h3>Topics</h3>
+    <hr>
+    <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Abortion</h5>
+        </div>
+        <div class="panel-body">
+          <img src="abortion.jpg">
+        </div>
+        <div class="panel-footer">
+          <a href="versi_topic_page.html">Join the conversation</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Euthanasia</h5>
+        </div>
+        <div class="panel-body">
+          <img src="e2.jpg">
+        </div>
+        <div class="panel-footer">
+          <a href="versi_topic_page.html">Join the conversation</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Education</h5>
+        </div>
+        <div class="panel-body">
+          <img src="education.jpg"> 
+        </div>
+        <div class="panel-footer">
+          <a href="versi_topic_page.html">Join the conversation</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Access to Healthcare</h5>
+        </div>
+        <div class="panel-body">
+          <img src="h1.jpg">
+        </div>
+        <div class="panel-footer">
+          <a href="versi_topic_page.html">Join the conversation</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Refugees</h5>
+        </div>
+        <div class="panel-body">
+          <img src="refugees.jpg">
+        </div>
+        <div class="panel-footer">
+          <a href="versi_topic_page.html">Join the conversation</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Disability Care</h5>
+        </div>
+        <div class="panel-body">
+          <img src="disability.jpg">
+        </div>
+        <div class="panel-footer">
+          <a href="versi_topic_page.html">Join the conversation</a>
+        </div>
+        </div>
+      </div>
+  </div>
+</div> 
+<hr>  
+<br>
+  
+<div class="col-sm-2 sidenav"></div>
+<div class="container-fluid text-center">
+  <div class="row">
+    <div id="trending" class="col-sm-7 text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+              <h2>What's Trending</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <img src="venezuela.jpg" height="200" width="200" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>'Like doctors in a war’: inside Venezuela’s healthcare crisis. <a href="https://www.theguardian.com/world/2016/oct/19/venezuela-crisis-hospitals-shortages-barcelona-caracas">Original Source</a></p>
+            <button>See what other's have to say</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <img src="lindsay.jpeg" height="200" width="200" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>Lindsay Lohan’s bizarre aid offer for refugees: Energy drinks. 
+              <a href="http://www.news.com.au/entertainment/celebrity-life/lindsay-lohans-bizarre-aid-offer-for-refugees-energy-drinks/news-story/f597ce15fe4cb64d513f3107a008f557">Original Source</a></p>
+
+            <button>See what other's have to say</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <img src="ab.png" height="200" width="200" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>The Christian lobby is now trying to convince women that abortion causes breast cancer. <a href="http://www.smh.com.au/lifestyle/news-and-views/opinion/the-christian-lobby-is-now-trying-to-convince-women-that-abortion-causes-breast-cancer-20161018-gs535e.html">Original Source</a></p>
+            <button>See what other's have to say</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <img src="mp.jpg" height="100" width="100" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>Liberal MP Tony Simpson at odds with Premier over euthanasia. <a href="http://www.abc.net.au/news/2016-10-19/liberal-mp-tony-simpson-at-odds-with-party-over-euthanasia/7947830">Original Source</a></p>
+            <button>See what other's have to say</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2 well">
+      <div class="wordmap">
+        <p>Random word map</p>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-sm-2 sidenav"></div>
+<br>
+
+<!-- Modal -->
+  <div class="modal fade" id="basicModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login</h4>
+          <img src="image.png" height="200" width="400" alt="Avatar">
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="username">Username:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Enter username or email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                <div class="col-sm-10"> 
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+              </div>
+              <div class="form-group"> 
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group"> 
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Login</button>
+                </div>
+              </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Register</h4>
+          <img src="image.png" height="200" width="400" alt="Avatar">
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Enter username or email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="username">Username:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Enter username or email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                <div class="col-sm-10"> 
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+              </div>
+              <div class="form-group"> 
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group"> 
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Register</button>
+                </div>
+              </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="logoutModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Logout</h4>
+        </div>
+        <div class="modal-body text-center">
+          <h4> Are you sure you want to Logout?</h4>
+          <button type=button class="btn btn-default">Yes</button>
+          <button type=button class="btn btn-default">No</button>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>

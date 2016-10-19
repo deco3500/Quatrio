@@ -1,0 +1,178 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.panel-primary {
+     background-color: #DCDDD2 !important;
+}
+
+
+.chat li
+{
+  list-style-type: none;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+
+img{
+  
+  width:100%;
+    height: 100%
+
+}
+.panel-body{
+  text-align: center;
+  padding: 0;
+  overflow-y: scroll;
+  
+
+ }
+
+ #For{
+
+  color: green;
+
+ }
+
+ #Against{
+  color:red;
+ }
+    
+    footer {
+      background-color: #555;
+      padding: 10px;
+      color: white;
+
+    }
+    
+  .carousel-inner img {
+      width: 100%; 
+      margin: auto;
+      min-height:100px;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+    #myCarousel{
+      height: 50px;
+    }
+  .comment-list .row {
+  margin-bottom: 0px;
+}
+.comment-list .panel .panel-heading {
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right {
+  border-right-width: 0px;
+
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body {
+  padding-top: 6px;
+}
+.comment-list figcaption {
+  
+  word-wrap: break-word;
+}
+@media (min-width: 768px) {
+  .comment-list .arrow:after, .comment-list .arrow:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+ 
+  .comment-list .panel.arrow.left:before {
+    left: 0px;
+    top: 30px;
+
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+ 
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 31px;
+    
+
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  
+  .comment-list .panel.arrow.right:before {
+    right: -16px;
+    top: 30px;
+   
+    border-left-color: inherit;
+    border-width: 16px;
+  }
+  .comment-list .panel.arrow.right:after {
+    right: -14px;
+    top: 31px;
+    border-left-color: #FFFFFF;
+    border-width: 15px;
+  }
+}
+.comment-list .comment-post {
+  margin-top: 6px;
+}
+
+h2{
+  text-align: center;
+}
+
+  
+ .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+.jumbotron {
+    background-color: #3E3E3E;
+    color: #fff;
+    padding-top: 12%;
+    padding-bottom: 11%;
+    font-family: Montserrat, sans-serif;
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+
+.jumbotron img#debate{  
+	top: 8px;
+    left: 16px;
+    max-width: 300px;
+    
+}
+
+
+
+
+
+ 
