@@ -1,11 +1,10 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
+.navbar {
+  	margin-bottom: 0;
+    border-radius: 0;
+}
 
-.chat
-{
+.chat {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -15,27 +14,26 @@
      background-color: #DCDDD2 !important;
 }
 
-.chat li
-{
+.chat li {
   	list-style-type: none;
     margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px dotted #B3A9A9;
 }
 
-.panel-body{
+.panel-body {
 	text-align: center;
 	padding: 0;
 	overflow-y: scroll;
- }
+}
 
- #For{
+#For {
 	color: green;
- }
+}
 
- #Against{
+#Against {
 	color:red;
- }
+}
     
 footer {
 	background-color: #555;
@@ -83,6 +81,7 @@ footer {
 	.comment-list figcaption {
   		word-wrap: break-word;
 	}
+}
 
 @media (min-width: 768px) {
 	.comment-list .arrow:after, .comment-list .arrow:before {
@@ -125,21 +124,21 @@ footer {
     	border-left-color: #FFFFFF;
     	border-width: 15px;
   	}
-}
+  	
 	.comment-list .comment-post {
   		margin-top: 6px;
 	}
+}
 
-h2{
+h2 {
   text-align: center;
 }
 
-  
- .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
     
 .jumbotron {
     background-color: #3E3E3E;
@@ -148,23 +147,23 @@ h2{
     padding-bottom: 11%;
     font-family: Montserrat, sans-serif;
     background-size: cover;
-    height: 100vh;
-    
-    
+    height: 100vh;  
 }
 
-.jumbotron img#debate{  
+.jumbotron img#debate {  
 	top: 8px;
     left: 16px;
-    max-width: 300px;
-    
+    max-width: 300px; 
 }
 
-.jumbotron img#versi{  
+.jumbotron img#versi {  
 	top: 8px;
     left: 16px;
-    max-width: 300px;
-    
+    max-width: 300px;  
+}
+
+img {
+	width: 100%;
 }
 
 
