@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Versi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="../htdocs/css/font-awesome-4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scroll.js"></script>
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li><a href="#grapi-container">Video</a></li>
+      <li><a href="#purpose-container">Purpose</a></li>
+      <li><a href="#components-container">Components</a></li>
+      <li><a href="#progress-container">Our Progress</a></li> 
+      <li><a href="#future-container">Our Future</a></li> 
+      <li><a href="#about-container">Meet The Team</a></li>
+      <!--li><a href="#user-info">Register</a></li-->
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1><img id="versi" src="versilogo.png" alt="logo"></h1>
+  <h2><font color="white">Join the Conversation</font></h2>
+</div>
+ 
+ <!-- Container (GRAPI) -->
+<div id="grapi-container" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2 sidenav"></div>
+      <div class="col-sm-8 text-center">
+      <h3>Kickstarter Video</h3>
+      <iframe id="video" width="720" height="406" src="http://www.youtube.com/embed/Q-EmKcfrrd8" frameborder="0" allowfullscreen></iframe>
+      <p><b>GRAPI fundamentally improves your gesture recognition experience. Introducing new and advanced “9 Degrees of Freedom” technology, high performance processor and ultra-long battery life. Not only it is an innovative and versatile piece of technology but it is also a fashionable accessory. It is light as feather, easily portable, user friendly and all these top of the line features are compacted to a wristband. GRAPI makes your everyday life motivating and entertaining.</b></p>
+      </div>
+  </div>
+  </div>
+</div>
+
+<!-- Container (Purpose) -->
+<div id="purpose-container" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-2 sidenav"></div>
+    
+      <div class="col-sm-8">
+      <h3>Purpose</h3>
+      <h4>GRAPI (Gesture Recognition Application Programming Interface) is an API for a wearable tech wristband that recognises gestures made by the wearer.</h4> 
+      <p>The wristband is designed to use an Arduino, a 9DOF gyroscope, LEDs, Bluetooth, Wi-Fi and a battery. The API is a gesture recognition system which uses an artificial neural network to process motion data from a sensor worn on a user’s wrist and calculate the probability that the user made a particular gesture.</p>
+      <p>It is developed on an Arduino feather HUZZAH and a BNO055 motion sensor, which are very suited to this type of wearable technology as they offer a battery powered lightweight processor and on-chip Wi-Fi which can be used to run client programs using GRAPI, and to communicate with other devices wirelessly. GRAPI can be implemented to any desired program or applications due to its versatility.</p> 
+      <p>It is a one-system-fits-all API. GRAPI also includes a desktop calibration program which can be used to tune the API’s sensitivity. It will display the output and thresholds from the gesture recognition output and allows users to easily experiment with the API’s settings and the available gestures. The program will also act as a demonstration and example of the API’s use and basic capabilities for users.</p>
+      </div>
+  </div>
+  </div>
+</div>
+
+<!-- Container (Components) -->
+<div id="components-container" class="container-fluid">
+  <div class="row text-center">
+    <div class="col-sm-2 sidenav"></div>
+
+    <h3>Components</h3>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-4">
+
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Arduino Feather Huzzah Adafruit Feather HUZZAH with ESP8266 WiFi</h5>
+        </div>
+        <div class="panel-body">
+          <img src="2821-09.jpg">
+        </div>
+        <div class="panel-footer">
+          <ul>
+            <li>Measures 2.0" x 0.9" x 0.28" (51mm x 23mm x 8mm) without headers soldered in</li>
+            <li>ESP8266 @ 80MHz with 3.3V logic/power</li>
+            <li>Built in WiFi 802.11 b/g/n</li>
+            <li>3.3V regulator with 500mA peak current output</li>
+            <li>CP2104 USB-Serial converter onboard with 921600 max baudrate for uploading</li>
+            <li>Auto-reset support for getting into bootload mode before firmware upload</li>
+            <li>9 x GPIO pins - can also be used as I2C and SPI</li>
+            <li>1 x analog inputs 1.0V max</li>
+            <li>Built in 100mA LiPoly charger with charging status indicator LED, can also cut a trace to disable the charger</li>
+            <li>Pin #0 red LED for general purpose blinking. Pin #2 blue LED for bootloading debug & general purpose blinking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Adafruit 9-DOF Absolute Orientation IMU Fusion Breakout – BNO055</h5>
+        </div>
+        <div class="panel-body">
+          <img src="2472-00.jpg">
+        </div>
+        <div class="panel-footer">
+          <ul>
+            <li>Absolute Orientation (Euler Vector, 100Hz) Three axis orientation data based on a 360° sphere</li>
+            <li>Absolute Orientation (Quaterion, 100Hz) Four point quaternion output for more accurate data manipulation</li>
+            <li>Angular Velocity Vector (20Hz) Three axis of 'rotation speed' in rad/s</li>
+            <li>Acceleration Vector (100Hz) Three axis of acceleration (gravity + linear motion) in m/s^2</li>
+            <li>Magnetic Field Strength Vector (100Hz) Three axis of magnetic field sensing in micro Tesla (uT)</li>
+            <li>Linear Acceleration Vector (100Hz) Three axis of linear acceleration data (acceleration minus gravity) in m/s^2</li>
+            <li>Gravity Vector (100Hz) Three axis of gravitational acceleration (minus any movement) in m/s^2</li>
+            <li>Temperature (1Hz) Ambient temperature in degrees celsius</li>
+           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2 sidenav"></div>
+</div>
+
+<!-- Container (Progress) -->
+<div id="progress-container" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-2 sidenav"></div>
+    <div class="col-sm-8">
+    <h3>Our Progress</h3>
+    
+      <p>Our device uses an artificial neural network to recognize gestures made by a user. The ANN is currently trained using a pool of data recorded from three of the gestures -  push, screw in and screw out -  and can easily be extended to recognize other gestures by recording movement data output from the device.</p>
+      <p>The device can connect to standard WiFi networks allowing it to be used freely without relying on a cable connection, which gives the user freedom to use the device anywhere they have WiFi access, without worrying about their proximity to other systems.
+      </p>
+      
+   
+  </div>
+  </div>
+</div>
+
+<!-- Container (Future) -->
+<div id="future-container" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2 sidenav"></div>
+    <div class="col-sm-8">
+      <div class="col-sm-12">
+      <h3>Our Future</h3>
+      <p>Our top priority is to implement the remaining 5 gestures in the future. We will record gesture data for each gesture and extend and retrain the neural network to recognize the gestures. We will also create a user interface that displays the probability of the currently gesture being recognised, the current position of the hand and other underlying information such as the acceleration of the device.</p>
+      
+    </div>
+    <div class="col-sm-12">
+      <img src="ux.jpeg">
+      <p>The interface also allows the user to re-calibrate the device. If, for example,  the API is too sensitive for a particular usage and produces a lot of false-positive gestures, then the thresholds may need to be increased. The calibration interface will offer an easy way to experiment with the calibration of the GRAPI; the users can use the calibration interface to tweak the calibrations, and then see feedback from test gestures in real time.</p>
+    </div>
+    </div>
+    <div class="col-sm-2 sidenav"></div>
+  </div>
+  </div>
+
+<!-- Container (About) -->
+<div id="about-container" class="container-fluid bg-grey">
+   
+  <div class="row">
+    <div class="col-sm-2 sidenav"></div>
+    <div class="col-sm-8">
+    <h6>Meet The Team</h6>
+    <p class="p1">We are Team Bandwagon, a team of 6 ambitious, enthusiastic, friendly undergraduate students at the University of Queensland. Members studying various different degrees have their individual specialties in designing and/or programming including basic HTML/CSS, Python, Java, C, etc. We are proud and excited to introduce you to our state-of-the-art product. Feel free to leave us comments if you have any questions or recommendations! Team Bandwagon, out.</p>
+    
+      <div class="col-sm-6">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Ashleigh Armstrong</h5>
+        </div>
+        <div class="panel-body">
+          <img src="Ash.JPG">
+        </div>
+        <div class="panel-footer">
+          <p>Background: Java, Python, C, HTML, CSS, Javascript, PHP, SQL and Machine Learning.</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Jessalyn Santoso</h5>
+        </div>
+        <div class="panel-body">
+          <img src="Jess.jpg">
+        </div>
+        <div class="panel-footer">
+          <p>Background: HCI/UI/UX design, HTML, CSS, Javascript, Python, MySQL and currently learning C.</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Zach Yusi</h5>
+        </div>
+        <div class="panel-body">
+          <img src="Zach.jpg">
+        </div>
+        <div class="panel-footer">
+          <p>Background: UX/UI design,  MySQL, HTML, CSS</p>
+        </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-6">
+        <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Sarah Balsillie</h5>
+        </div>
+        <div class="panel-body">
+          <img src="Sarah.jpg">
+        </div>
+        <div class="panel-footer">
+          <p>Background: Webdev, Java, C, Python, PHP, MySQL.</p>
+        </div>
+        </div>
+      </div>
+ </div>
+   <div class="col-sm-2 sidenav"></div>
+</div>
+</div>
+
+
+<footer class="container-fluid text-center">
+  <p>Copyright Versi 2016</p>
+</footer>
+
+</body>
+</html>

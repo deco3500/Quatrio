@@ -1,0 +1,342 @@
+
+.jumbotron{
+
+	position: relative;
+    background: #000 url("protest.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    font-family: Montserrat, sans-serif;
+    
+
+}
+footer {
+	background-color: #555;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #303030;
+    border: 0;
+    font-size: 12.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    
+} 
+
+.navbar ul li{
+    padding-left: 50px;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #E7E7E7;
+    color: #363636;
+}
+
+.navbar li a {
+    
+    color: white !important;
+    
+}
+
+.navbar li a:hover {
+    
+    color: black !important;
+    
+}
+
+
+.jumbotron img#versi{  
+	top: 8px;
+    left: 16px;
+    max-width: 500px;
+    
+}
+
+.jumbotron h2{  
+	padding: 10px;
+}
+
+iframe {
+	padding-bottom: 23px;
+}
+
+body {
+	font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+    
+}
+
+
+body > .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+  
+h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+  
+h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+  
+h4 {
+    font-size: 17px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 800;
+}
+
+h6 {
+	font-size: 24px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p {
+	font-size: 15px;
+	text-align: justify;
+}
+
+
+
+.bg-grey {
+    background-color: #f9edff;
+}
+
+#user-info {  
+    width: 530px;
+    margin: auto;
+    text-align: justify;
+}
+
+.btt {
+    
+    transform: rotate(270deg);
+	transform-origin: left top 0;
+    position: fixed;
+    bottom: 400px;
+    right: -82px;
+    background-color: #f6f6f6;
+    border: 1px grey solid;
+    padding: 5px 5px 0 5px;
+    border-radius: 5px 5px 0 0;
+    display: none;
+    
+}
+
+.btt p {
+    
+    font-size: 20px;
+    
+}
+
+.btt:hover {
+    
+    background-color: white;
+    border: 1px black solid;
+    
+}
+
+.btt a:hover {
+    
+    text-decoration: none;
+    
+}
+
+.info {   
+    width: 520px;   
+}
+
+.info input,
+.info textarea {
+    
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #cacaca;
+    
+}
+
+
+.bottom {
+    
+    position: relative;
+    top: 75px; 
+    
+}
+
+.left {
+    
+    float:left;
+    
+}
+
+.right {
+    
+    float:right; 
+    
+}
+
+.clear {
+    
+    clear: both;
+    
+}
+
+#copyright {
+    
+    padding-top: 30px;
+    float: left;
+    
+}
+
+#admin-link {
+    
+    position: relative;
+    top: 25px;
+    right: 50px;
+    
+}
+
+.share {
+    
+    width: 160px; 
+    float: right;
+    
+}
+
+.share p {
+    
+    float: right;
+    
+}
+
+.share img {
+    
+    width: 50px;
+    height: 50px;
+    
+}
+
+.textarea, 
+#email { 
+    width: 400px;  
+}
+
+.names {   
+    width: 250px;
+}
+
+#admin-title {
+    width: 400px;
+    margin: auto; 
+}
+
+#back { 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.content {
+    width: 1000px;
+    margin: auto;  
+}
+
+.content h3 { 
+    width: 195px;
+    margin: auto;  
+}
+
+#chartdiv {  
+    width: 700px;
+    margin: auto;  
+}
+
+#commentsdiv { 
+    width: 1000px;
+    height: 400px;
+    overflow: scroll;
+    overflow-x: auto;
+    table-layout: fixed;
+    padding: 10px 10px 0 10px;
+    border: 1px solid grey; 
+}
+
+.site-visits { 
+    width: 300px;
+    max-height: 300px;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.site-visits table {  
+    text-align: center;  
+}
+.panel-body{
+ 	text-align: center;
+ 	padding: 0;
+ 	min-size: 100px;
+ 
+ 
+ }
+
+ .panel-footer{
+    text-align: center;
+    
+
+ }
+ 
+img{
+	
+	width: 100%;
+
+}
+
+.button {
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+	background-color: #2377cb;
+    position: relative;
+    top: 80px;
+}
+
+.button:hover {
+	background-color: #15487A;
+}
+
+.p1{
+	text-align: center;
+	
+	}
+.huzza{
+	position: center;
+}
+
