@@ -7,16 +7,10 @@
     height: 100%;
     background-size: cover;
     overflow: hidden;
-    font-family: Montserrat, sans-serif;
-    
+    font-family: Montserrat, sans-serif;  
 
 }
-footer {
-	background-color: #555;
-    padding: 10px;
-    color: white;
-    text-align: center;
-}
+
 
 .navbar {
     background-color: #303030;
@@ -24,11 +18,21 @@ footer {
     font-size: 12.5px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    margin-bottom: 0;
+    border-radius: 0;
+     
     
 } 
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
 .navbar ul li{
     padding-left: 50px;
+    
 }
 
 .navbar li a:hover:not(.active) {
@@ -47,7 +51,6 @@ footer {
     color: black !important;
     
 }
-
 
 .jumbotron img#versi{  
 	top: 8px;
@@ -68,11 +71,26 @@ body {
 	font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     padding-top: 10px;
-    padding-bottom: 30px;
     overflow-x: hidden;
+    
     
 }
 
+.glyphicon {
+    font-size: 80px;
+    color: #3d005b;
+}
+
+#what {
+	text-align: center;
+}
+
+ footer {
+      background-color: #555;
+      padding:10px;
+      color: white;
+      
+    }
 
 body > .row {
     margin-left: 0px;
@@ -216,54 +234,6 @@ p {
     
 }
 
-#admin-link {
-    
-    position: relative;
-    top: 25px;
-    right: 50px;
-    
-}
-
-.share {
-    
-    width: 160px; 
-    float: right;
-    
-}
-
-.share p {
-    
-    float: right;
-    
-}
-
-.share img {
-    
-    width: 50px;
-    height: 50px;
-    
-}
-
-.textarea, 
-#email { 
-    width: 400px;  
-}
-
-.names {   
-    width: 250px;
-}
-
-#admin-title {
-    width: 400px;
-    margin: auto; 
-}
-
-#back { 
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
 .content {
     width: 1000px;
     margin: auto;  
@@ -274,31 +244,7 @@ p {
     margin: auto;  
 }
 
-#chartdiv {  
-    width: 700px;
-    margin: auto;  
-}
 
-#commentsdiv { 
-    width: 1000px;
-    height: 400px;
-    overflow: scroll;
-    overflow-x: auto;
-    table-layout: fixed;
-    padding: 10px 10px 0 10px;
-    border: 1px solid grey; 
-}
-
-.site-visits { 
-    width: 300px;
-    max-height: 300px;
-    overflow: auto;
-    border: 1px solid black;
-}
-
-.site-visits table {  
-    text-align: center;  
-}
 .panel-body{
  	text-align: center;
  	padding: 0;
@@ -336,7 +282,9 @@ img{
 	text-align: center;
 	
 	}
-.huzza{
-	position: center;
-}
 
+#about-container {
+
+	padding-bottom: 40px;
+
+}

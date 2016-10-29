@@ -13,14 +13,14 @@
 </head>
 
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top text-center">
   <div class="container">
     <ul class="nav navbar-nav">
-      <li><a href="#grapi-container">Video</a></li>
-      <li><a href="#purpose-container">Purpose</a></li>
-      <li><a href="#components-container">Components</a></li>
-      <li><a href="#progress-container">Our Progress</a></li> 
-      <li><a href="#future-container">Our Future</a></li> 
+      <li><a href="#versi-container">Kickstarter</a></li>
+      <li><a href="#purpose-container">What we Do</a></li>
+      <li><a href="#components-container">Topics</a></li>
+      <!--li><a href="#progress-container">Our Progress</a></li> 
+      <li><a href="#future-container">Our Future</a></li--> 
       <li><a href="#about-container">Meet The Team</a></li>
       <!--li><a href="#user-info">Register</a></li-->
     </ul>
@@ -31,15 +31,16 @@
   <h1><img id="versi" src="versilogo.png" alt="logo"></h1>
   <h2><font color="white">Join the Conversation</font></h2>
 </div>
- 
  <!-- Container (GRAPI) -->
-<div id="grapi-container" class="container-fluid">
+<div id="versi-container" class="container-fluid">
   <div class="row">
     <div class="col-sm-2 sidenav"></div>
       <div class="col-sm-8 text-center">
-      <h3>Kickstarter Video</h3>
-      <iframe id="video" width="720" height="406" src="http://www.youtube.com/embed/Q-EmKcfrrd8" frameborder="0" allowfullscreen></iframe>
-      <p><b>GRAPI fundamentally improves your gesture recognition experience. Introducing new and advanced “9 Degrees of Freedom” technology, high performance processor and ultra-long battery life. Not only it is an innovative and versatile piece of technology but it is also a fashionable accessory. It is light as feather, easily portable, user friendly and all these top of the line features are compacted to a wristband. GRAPI makes your everyday life motivating and entertaining.</b></p>
+        <br><br>
+        <h3>Kickstarter Video</h3>
+        <iframe id="video" width="720" height="406" src="http://www.youtube.com/embed/Q-EmKcfrrd8" frameborder="0" allowfullscreen></iframe>
+        <p><b></b></p>
+        <br><br>
       </div>
   </div>
   </div>
@@ -48,81 +49,157 @@
 <!-- Container (Purpose) -->
 <div id="purpose-container" class="container-fluid bg-grey">
   <div class="row">
-    <div class="col-sm-2 sidenav"></div>
-    
-      <div class="col-sm-8">
-      <h3>Purpose</h3>
-      <h4>GRAPI (Gesture Recognition Application Programming Interface) is an API for a wearable tech wristband that recognises gestures made by the wearer.</h4> 
-      <p>The wristband is designed to use an Arduino, a 9DOF gyroscope, LEDs, Bluetooth, Wi-Fi and a battery. The API is a gesture recognition system which uses an artificial neural network to process motion data from a sensor worn on a user’s wrist and calculate the probability that the user made a particular gesture.</p>
-      <p>It is developed on an Arduino feather HUZZAH and a BNO055 motion sensor, which are very suited to this type of wearable technology as they offer a battery powered lightweight processor and on-chip Wi-Fi which can be used to run client programs using GRAPI, and to communicate with other devices wirelessly. GRAPI can be implemented to any desired program or applications due to its versatility.</p> 
-      <p>It is a one-system-fits-all API. GRAPI also includes a desktop calibration program which can be used to tune the API’s sensitivity. It will display the output and thresholds from the gesture recognition output and allows users to easily experiment with the API’s settings and the available gestures. The program will also act as a demonstration and example of the API’s use and basic capabilities for users.</p>
+    <div class="col-sm-2"></div>
+
+    <div class="col-sm-8 text-center">
+      <br><br>
+      <h3>What Versi Does?</h3>
+      <br>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-search"></span>
+        <h4>INSPECT</h4>
+        <p id ="what">We inspect articles about controversial topics from multiple sites.</p>
       </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-filter"></span>
+        <h4>FILTER</h4>
+        <p id ="what">We filter the facts from these articles.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-folder-open"></span>
+        <h4>COLLATE</h4>
+        <p id ="what">We collate the facts and present them to you.</p>
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
   </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-2"></div>
+
+    <div class="col-sm-8 text-center">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-thumbs-up"></span>
+      <h4>DISCUSS</h4>
+      <p id ="what">We share the facts for you to discuss with like-minded people.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-bullhorn"></span>
+      <h4>DEBATE</h4>
+      <p id ="what">We host debates for each topic so you can voice your opnions and hear what others think as well.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-user"></span>
+      <h4>COMMUNITY</h4>
+      <p id ="what">We provide a safe community for you to express your opinions on controversial topics without fear of being judged.</p>
+    </div>
+
   </div>
+  <div class="col-sm-2"></div>
+</div>
+<br><br>
 </div>
 
 <!-- Container (Components) -->
 <div id="components-container" class="container-fluid">
   <div class="row text-center">
-    <div class="col-sm-2 sidenav"></div>
-
-    <h3>Components</h3>
+    
     <div class="col-sm-2"></div>
-    <div class="col-sm-4">
-
+    <div class="col-sm-8">
+      <br><br>
+      <h3>Topics</h3>
+      <div class="col-sm-4">
         <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h5>Arduino Feather Huzzah Adafruit Feather HUZZAH with ESP8266 WiFi</h5>
-        </div>
-        <div class="panel-body">
-          <img src="2821-09.jpg">
-        </div>
-        <div class="panel-footer">
-          <ul>
-            <li>Measures 2.0" x 0.9" x 0.28" (51mm x 23mm x 8mm) without headers soldered in</li>
-            <li>ESP8266 @ 80MHz with 3.3V logic/power</li>
-            <li>Built in WiFi 802.11 b/g/n</li>
-            <li>3.3V regulator with 500mA peak current output</li>
-            <li>CP2104 USB-Serial converter onboard with 921600 max baudrate for uploading</li>
-            <li>Auto-reset support for getting into bootload mode before firmware upload</li>
-            <li>9 x GPIO pins - can also be used as I2C and SPI</li>
-            <li>1 x analog inputs 1.0V max</li>
-            <li>Built in 100mA LiPoly charger with charging status indicator LED, can also cut a trace to disable the charger</li>
-            <li>Pin #0 red LED for general purpose blinking. Pin #2 blue LED for bootloading debug & general purpose blinking</li>
-          </ul>
+          <div class="panel-heading">
+            <h5>Abortion</h5>
+            </div>
+          <div class="panel-body">
+            <img src="abortion.jpg">
+          </div>
+          <div class="panel-footer">
+            <a href="http://versi.azurewebsites.net/versi_abortion_page.html" target="_blank">Join the conversation</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-sm-4">
-
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h5>Adafruit 9-DOF Absolute Orientation IMU Fusion Breakout – BNO055</h5>
-        </div>
-        <div class="panel-body">
-          <img src="2472-00.jpg">
-        </div>
-        <div class="panel-footer">
-          <ul>
-            <li>Absolute Orientation (Euler Vector, 100Hz) Three axis orientation data based on a 360° sphere</li>
-            <li>Absolute Orientation (Quaterion, 100Hz) Four point quaternion output for more accurate data manipulation</li>
-            <li>Angular Velocity Vector (20Hz) Three axis of 'rotation speed' in rad/s</li>
-            <li>Acceleration Vector (100Hz) Three axis of acceleration (gravity + linear motion) in m/s^2</li>
-            <li>Magnetic Field Strength Vector (100Hz) Three axis of magnetic field sensing in micro Tesla (uT)</li>
-            <li>Linear Acceleration Vector (100Hz) Three axis of linear acceleration data (acceleration minus gravity) in m/s^2</li>
-            <li>Gravity Vector (100Hz) Three axis of gravitational acceleration (minus any movement) in m/s^2</li>
-            <li>Temperature (1Hz) Ambient temperature in degrees celsius</li>
-           </ul>
+      <div class="col-sm-4">
+       <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h5>Euthanasia</h5>
+          </div>
+          <div class="panel-body">
+            <img src="e2.jpg">
+          </div>
+          <div class="panel-footer">
+            <a href="http://versi.azurewebsites.net/versi_topic_page.html" target="_blank">Join the conversation</a>
+          </div>
         </div>
       </div>
+
+      <div class="col-sm-4">
+       <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h5>Education</h5>
+          </div>
+          <div class="panel-body">
+            <img src="education.jpg"> 
+          </div>
+          <div class="panel-footer">
+            <a href="http://versi.azurewebsites.net/versi_education_page.html" target="_blank">Join the conversation</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h5>Access to Healthcare</h5>
+          </div>
+          <div class="panel-body">
+            <img src="h1.jpg">
+          </div>
+          <div class="panel-footer">
+            <a href="http://versi.azurewebsites.net/versi_healthcare_page.html" target="_blank">Join the conversation</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h5>Refugees</h5>
+          </div>
+          <div class="panel-body">
+            <img src="refugees.jpg">
+          </div>
+          <div class="panel-footer">
+            <a href="http://versi.azurewebsites.net/versi_refugee_page.html" target="_blank">Join the conversation</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h5>Disability Care</h5>
+          </div>
+          <div class="panel-body">
+            <img src="disability.jpg">
+          </div>
+          <div class="panel-footer">
+            <a href="http://versi.azurewebsites.net/versi_disability_page.html" target="_blank">Join the conversation</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+        
     </div>
   </div>
-    <div class="col-sm-2 sidenav"></div>
+  <br><br>
 </div>
 
+
 <!-- Container (Progress) -->
-<div id="progress-container" class="container-fluid bg-grey">
+<!--div id="progress-container" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-2 sidenav"></div>
     <div class="col-sm-8">
@@ -137,7 +214,7 @@
   </div>
 </div>
 
-<!-- Container (Future) -->
+<Container (Future)>
 <div id="future-container" class="container-fluid">
   <div class="row">
     <div class="col-sm-2 sidenav"></div>
@@ -162,8 +239,9 @@
   <div class="row">
     <div class="col-sm-2 sidenav"></div>
     <div class="col-sm-8">
+      <br><br>
     <h6>Meet The Team</h6>
-    <p class="p1">We are Team Bandwagon, a team of 6 ambitious, enthusiastic, friendly undergraduate students at the University of Queensland. Members studying various different degrees have their individual specialties in designing and/or programming including basic HTML/CSS, Python, Java, C, etc. We are proud and excited to introduce you to our state-of-the-art product. Feel free to leave us comments if you have any questions or recommendations! Team Bandwagon, out.</p>
+    <p class="p1"><b>We're the team working to build and improve your Versi experience!</b></p>
     
       <div class="col-sm-6">
         <div class="panel panel-default text-center">
@@ -207,8 +285,6 @@
         </div>
       </div>
 
-
-
       <div class="col-sm-6">
         <div class="panel panel-default text-center">
         <div class="panel-heading">
@@ -227,9 +303,8 @@
 </div>
 </div>
 
-
 <footer class="container-fluid text-center">
-  <p>Copyright Versi 2016</p>
+  <p id="what">Copyright Versi 2016</p>
 </footer>
 
 </body>
