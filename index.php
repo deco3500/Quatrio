@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,26 +27,30 @@
     </div>
     <div class="navbar navbar-default navbar-fixed-top" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="versi_home_page.html">Home</a></li>
-        <li><a href="versi_event_page.html">Events</a></li>
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="versi_event_page.php">Events</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown">Topic
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="versi_topic_page.html">Euthanasia</a></li>
-          <li><a href="versi_education_page.html">Education</a></li>
-          <li><a href="versi_abortion_page.html">Abortion</a></li> 
-          <li><a href="versi_healthcare_page.html">Healthcare</a></li>
-          <li><a href="versi_refugee_page.html">Refugees</a></li> 
-          <li><a href="versi_disability_page.html">Disability Care</a></li> 
+          <li><a href="versi_topic_page.php">Euthanasia</a></li>
+          <li><a href="versi_education_page.php">Education</a></li>
+          <li><a href="versi_abortion_page.php">Abortion</a></li> 
+          <li><a href="versi_healthcare_page.php">Healthcare</a></li>
+          <li><a href="versi_refugee_page.php">Refugees</a></li> 
+          <li><a href="versi_disability_page.php">Disability Care</a></li> 
         </ul>
       </li>
-        <li><a href="versi_debate_landing_page.html">Debates</a></li>
-        <li><a href="#" data-toggle="modal" data-target="#logoutModal">Logout</a></li>
+        <li><a href="versi_debate_landing_page.php">Debates</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" data-toggle="modal" data-target="#basicModal"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
-        <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" ></span> Register</a></li>
+        <?php if(isset($_SESSION['username'])){ ?>
+          <li><a href="versi_event_page.php"> <?php echo $_SESSION["username"] ?></a> </li>
+          <li><a href="#" data-toggle="modal" data-target="#logoutModal">logout</a></li>
+        <?php }else{ ?>
+          <li><a href="#" data-toggle="modal" data-target="#basicModal"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" ></span> Register</a></li>
+        <?php } ?>
       </ul>
     </div>
   </div>
@@ -67,7 +75,7 @@
           <img src="abortion.jpg">
         </div>
         <div class="panel-footer">
-          <a href="versi_abortion_page.html">Join the conversation</a>
+          <a href="versi_abortion_page.php">Join the conversation</a>
         </div>
         </div>
       </div>
@@ -81,7 +89,7 @@
           <img src="e2.jpg">
         </div>
         <div class="panel-footer">
-          <a href="versi_topic_page.html">Join the conversation</a>
+          <a href="versi_topic_page.php">Join the conversation</a>
         </div>
         </div>
       </div>
@@ -95,7 +103,7 @@
           <img src="education.jpg"> 
         </div>
         <div class="panel-footer">
-          <a href="versi_education_page.html">Join the conversation</a>
+          <a href="versi_education_page.php">Join the conversation</a>
         </div>
         </div>
       </div>
@@ -109,7 +117,7 @@
           <img src="h1.jpg">
         </div>
         <div class="panel-footer">
-          <a href="versi_healthcare_page.html">Join the conversation</a>
+          <a href="versi_healthcare_page.php">Join the conversation</a>
         </div>
         </div>
       </div>
@@ -123,7 +131,7 @@
           <img src="refugees.jpg">
         </div>
         <div class="panel-footer">
-          <a href="versi_refugee_page.html">Join the conversation</a>
+          <a href="versi_refugee_page.php">Join the conversation</a>
         </div>
         </div>
       </div>
@@ -137,7 +145,7 @@
           <img src="disability.jpg">
         </div>
         <div class="panel-footer">
-          <a href="versi_disability_page.html">Join the conversation</a>
+          <a href="versi_disability_page.php">Join the conversation</a>
         </div>
         </div>
       </div>
@@ -169,7 +177,7 @@
         <div class="col-sm-9">
           <div class="well">
             <p>'Like doctors in a war’: inside Venezuela’s healthcare crisis. <a href="https://www.theguardian.com/world/2016/oct/19/venezuela-crisis-hospitals-shortages-barcelona-caracas">Original Source</a></p>
-            <a href="versi_healthcare_page.html" class="btn btn-default">See what others have to say</a>
+            <a href="versi_healthcare_page.php" class="btn btn-default">See what others have to say</a>
           </div>
         </div>
       </div>
@@ -184,7 +192,7 @@
             <p>Lindsay Lohan’s bizarre aid offer for refugees: Energy drinks. 
               <a href="http://www.news.com.au/entertainment/celebrity-life/lindsay-lohans-bizarre-aid-offer-for-refugees-energy-drinks/news-story/f597ce15fe4cb64d513f3107a008f557">Original Source</a></p>
 
-            <a href="versi_refugees_page.html" class="btn btn-default">See what others have to say</a>
+            <a href="versi_refugees_page.php" class="btn btn-default">See what others have to say</a>
           </div>
         </div>
       </div>
@@ -197,7 +205,7 @@
         <div class="col-sm-9">
           <div class="well">
             <p>The Christian lobby is now trying to convince women that abortion causes breast cancer. <a href="http://www.smh.com.au/lifestyle/news-and-views/opinion/the-christian-lobby-is-now-trying-to-convince-women-that-abortion-causes-breast-cancer-20161018-gs535e.html">Original Source</a></p>
-            <a href="versi_abortion_page.html" class="btn btn-default">See what others have to say</a>
+            <a href="versi_abortion_page.php" class="btn btn-default">See what others have to say</a>
           </div>
         </div>
       </div>
@@ -210,7 +218,7 @@
         <div class="col-sm-9">
           <div class="well">
             <p>Liberal MP Tony Simpson at odds with Premier over euthanasia. <a href="http://www.abc.net.au/news/2016-10-19/liberal-mp-tony-simpson-at-odds-with-party-over-euthanasia/7947830">Original Source</a></p>
-            <a href="versi_topic_page.html" class="btn btn-default">See what others have to say</a>
+            <a href="versi_topic_page.php" class="btn btn-default">See what others have to say</a>
           </div>
         </div>
       </div>
@@ -237,32 +245,20 @@
           <img src="image.png" height="200" width="400" alt="Avatar">
         </div>
         <div class="modal-body">
-          <form class="form-horizontal">
-              <div class="form-group">
-                <label class="control-label col-sm-2" for="username">Username:</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="email" placeholder="Enter username or email">
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-sm-2" for="pwd">Password:</label>
-                <div class="col-sm-10"> 
-                  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-                </div>
-              </div>
-              <div class="form-group"> 
-                <div class="col-sm-offset-2 col-sm-10">
-                  <div class="checkbox">
-                    <label><input type="checkbox"> Remember me</label>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group"> 
-                <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default">Login</button>
-                </div>
-              </div>
-            </form>
+			<form class="form-horizontal" id="loginform" action="login.php" method="POST">
+				<table Class="form">
+					<tr>
+						<td Class="l">Username:</td>
+						<td Class="r"><input type="text" id="name" name="lusername"></td>
+					</tr>
+					<tr>
+						<td Class="l">Password:</td>
+						<td Class="r"><input type="text" id="pass" name="lpassword"></td>
+					</tr>
+				</table>
+					<input type="submit" value="Submit">
+					<input type="reset"  value="Reset">
+			</form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -283,38 +279,30 @@
           <img src="image.png" height="200" width="400" alt="Avatar">
         </div>
         <div class="modal-body">
-          <form class="form-horizontal">
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="email">Email:</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="email" placeholder="Enter username or email">
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-sm-2" for="username">Username:</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="email" placeholder="Enter username or email">
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-sm-2" for="pwd">Password:</label>
-                <div class="col-sm-10"> 
-                  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-                </div>
-              </div>
-              <div class="form-group"> 
-                <div class="col-sm-offset-2 col-sm-10">
-                  <div class="checkbox">
-                    <label><input type="checkbox"> Remember me</label>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group"> 
-                <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default">Register</button>
-                </div>
-              </div>
-            </form>
+         <form id="registerform" action="register.php" method="POST">
+				<table class="form">
+					<tr>
+						<td class="l">Username:</td>
+						<td class="r"><input type="text" id="username" name="username"></td>
+						<td>*</td>
+					</tr>
+					
+					<tr>
+						<td class="l">Password:</td>
+						<td class="r"><input type="text" id="password" name="password"></td>
+						<td>*</td>
+					</tr>
+
+					<tr>
+						<td class="l">Email:</td>
+						<td class="r"><input type="text" id="email" name="email"></td>
+						<td>*</td>
+					</tr>
+			</table>
+					<input type="submit" value="Submit">
+					<input type="reset"  value="Reset">
+         
+				</form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -336,9 +324,10 @@
         </div>
         <div class="modal-body text-center">
           <h4> Are you sure you want to Logout?</h4>
-          <button type=button class="btn btn-default">Yes</button>
-          <button type=button class="btn btn-default">No</button>
-
+          <form action="logout.php" method="get" float="left">
+            <input class="btn btn-default" type="submit" value="yes">
+          </form>
+          <button type=button class="btn btn-default" data-dismiss="modal">No</button>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
