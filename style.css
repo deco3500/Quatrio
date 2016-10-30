@@ -3,10 +3,9 @@
   	margin-bottom: 0;
     border-radius: 0;
     font-family: 'Muli', sans-serif;
- 
+ 	padding-right: 1.5%;
     background-color: #212121;
     border-color: #212121;
- 
 }
 
 .chat {
@@ -29,10 +28,6 @@
 .panel-body {
 	padding: 1% 1% 1% 1%; 
 	overflow-y: scroll;
-}
-
-.wordmap{
-/* 	padding: 1%; */
 }
 
 #For {
@@ -138,20 +133,30 @@ footer {
 	}
 }
 
+/* Welcome to Versi */
 h2 {
 	text-align: center;
   	color: black;
   	font-family: 'Muli', sans-serif;
+  	padding-top: 2%;
 }
 
+/* Container headings */
 h3 {
   	font-family: 'Muli', sans-serif;
+  	text-align: center;
+  	padding: 0.25%;
 }
 
+/* Versi description */
 h4 {
   	font-family: 'Muli', sans-serif;
+  	color: white;
+	padding: 2% 15%;
+	line-height: 1.5;
 }
 
+/* Box heading - what's trending */
 h5 {
   	font-family: 'Muli', sans-serif;
 }
@@ -175,7 +180,6 @@ a{
 }
     
 .jumbotron{
-
 	position: relative;
     background-color: #76787a;
     width: 100%;
@@ -183,30 +187,44 @@ a{
     background-size: cover;
     overflow: hidden;
     font-family: Montserrat, sans-serif;
-
-
-}
-
-#what {
-	color: white;
 }
 
 .jumbotron img#debate {  
-	top: 8px;
+	top: 5px;
     left: 16px;
-    max-width: 300px; 
+    max-width: 3000px; 
 }
 
 .jumbotron img#versi {  
 	top: 8px;
     left: 16px;
-    max-width: 400px;  
+    max-width: 304px;  
 }
 
 img {
 	width: 100%;
 }
 
+img#threads{
+	height: 100%;
+	padding: 1%;
+}
+
+img#avatar{
+	width: 70%;
+}
+
+img#profile{
+	height: 50%;
+	width: 70%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+ul#events{
+	text-align: left;
+	padding-top: 2%;
+}
 
 
 
