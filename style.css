@@ -132,6 +132,7 @@ footer {
 
 h2 {
   text-align: center;
+  color: black;
 }
 
 .sidenav {
@@ -141,13 +142,13 @@ h2 {
 }
     
 .jumbotron {
-    background-color: #3E3E3E;
+    background-color: white;
     color: #fff;
     padding-top: 12%;
     padding-bottom: 11%;
     font-family: Montserrat, sans-serif;
     background-size: cover;
-    height: 100vh;  
+    height: 93vh;  
 }
 
 .jumbotron img#debate {  
