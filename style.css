@@ -3,10 +3,10 @@
   	margin-bottom: 0;
     border-radius: 0;
     font-family: 'Muli', sans-serif;
-/* 
-    background-color: white;
-    border-color: white;
- */
+ 
+    background-color: #212121;
+    border-color: #212121;
+ 
 }
 
 .chat {
@@ -174,14 +174,21 @@ a{
     height: 100%;
 }
     
-.jumbotron {
-    background-color: white;
-    color: #fff;
-    padding-top: 12%;
-    padding-bottom: 11%;
-    font-family: Montserrat, sans-serif;
+.jumbotron{
+
+	position: relative;
+    background-color: #76787a;
+    width: 100%;
+    height: 100%;
     background-size: cover;
-    height: 93vh;  
+    overflow: hidden;
+    font-family: Montserrat, sans-serif;
+
+
+}
+
+#what {
+	color: white;
 }
 
 .jumbotron img#debate {  
@@ -193,7 +200,7 @@ a{
 .jumbotron img#versi {  
 	top: 8px;
     left: 16px;
-    max-width: 300px;  
+    max-width: 400px;  
 }
 
 img {
