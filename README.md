@@ -123,6 +123,8 @@ Below are a list of requirements derived from the research above:
 * Moderators and editors to post and upkeep the site i.e. post new facts to the site and monitor the debates.
 * Certain pages and functions will not be available to users who have not logged in to the site.
 * The Versi site will feature simple, easy to use navigation throughout on all the pages of the site.
+* All text on the site will be written in a clear font and a readable font size.
+* Users will have the options to reply to posts made by other users.
 
 ##Design Process##
 In addition to the decision behind the colour scheme, ultimately, a good user experience design is too make sure that users are automatically interested to the site at first glance and would want to scroll down to find out more to see what this site is really all about. An inspiration for Versi is reddit, however when analysing the design of their webpages, you can see that it is not too aesthetically-friendly. With that, the team decided that having too much text puts readers off from continuing on through their website. The trending section just shows the currently trending articles with an exerpt of the article/facts under each heading. A navigational wordmap is a list of keywords that helps users get around to what they want to see/find as each discussion thread is categorised under a few keywords. Overall, the design is pretty simple with easy navigation.
