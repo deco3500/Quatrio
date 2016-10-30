@@ -2,6 +2,11 @@
 .navbar {
   	margin-bottom: 0;
     border-radius: 0;
+    font-family: 'Muli', sans-serif;
+/* 
+    background-color: white;
+    border-color: white;
+ */
 }
 
 .chat {
@@ -22,9 +27,12 @@
 }
 
 .panel-body {
-	text-align: center;
-	padding: 0;
+	padding: 1% 1% 1% 1%; 
 	overflow-y: scroll;
+}
+
+.wordmap{
+/* 	padding: 1%; */
 }
 
 #For {
@@ -131,8 +139,33 @@ footer {
 }
 
 h2 {
-  text-align: center;
-  color: black;
+	text-align: center;
+  	color: black;
+  	font-family: 'Muli', sans-serif;
+}
+
+h3 {
+  	font-family: 'Muli', sans-serif;
+}
+
+h4 {
+  	font-family: 'Muli', sans-serif;
+}
+
+h5 {
+  	font-family: 'Muli', sans-serif;
+}
+
+p{
+	font-family: 'Muli', sans-serif;
+}
+
+button{
+	font-family: 'Muli', sans-serif;
+}
+
+a{
+	font-family: 'Muli', sans-serif;
 }
 
 .sidenav {
