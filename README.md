@@ -72,6 +72,71 @@ Outside of the workshop hours that this course has provided us with to meet up, 
 * **Final URL and optional presentation - 28/10**
 
 ===================================
+#Process#
+##Research##
+Versi contains similar features to an online chat room and to guide the building of the product research was conducted into how these chat rooms work. We found that with newsgroups, similar to what Versi aims to achieve, the chat room community needs to be designed in a way to allow the users to develop relationships over time as opposed to a normal chat room where users interact briefly (Sveningson, Malin 2001). Upon realising this, the research conducted before building Versi became focused on other established online newsrooms which share similarities to what Versi aims to do. One in particular is Reddit. Reddit is a social news website and forum where stories are socially curated and promoted by site members (Rouse, 2012). Reddit is widely successful and it was important to find out why. According to Sjoberg 2013, reddit’s popularity is attributed to how much control they give their users. Additionally, the same study found that the users’ ability to control what content is featured on the home page by either thumbing them up or down. Another reason why the site is popular is that redditors are able to form communities with like-minded individuals and only subscribe to topics they find interesting (Sjoberg, 2013). This was integral information needed to assist with building Versi. Though Versi focusses on less topics than Reddit, it is important that users have the ability to communicate with people who share similar interests with them.
+
+Another important area of research was to find out how make users feel safe to share their opinions. Studies show that the majority of social media users are shy online and withhold their real opinions (McNally, 2013). The same research found that users are more comfortable to share their opinion if they feel other users will agree with them. Additionally, using a level of anonymity in a chat can push important issues to the forefront because a person can comment without fear of repercussion creating more meaningful dialog (Claywell, 2016). The same research also found that anonymity helps in generating unbiased discussion as users will feel more comfortable sharing. This is important as Versi aims to deliver facts and support factual conversation among users. 
+
+It was also important to conduct research about how to get users to keep using Versi. According to (AddThis Academy, 2016) these 5 tips are helpful to get users to keep using the site:
+* Personalize the Website
+ * Highlight new content.
+ * Provide new and returning visitors with relevant information
+ * Curate a featured section.
+ * Suggest content users may like.
+* Showcase What’s New and Popular
+ * Highlight new content.
+ * Keep popular content front and center.
+ * Emphasize highly shared content.
+* Create a Good User Experience (UX)
+ * Make sure the site is clear and well-designed.
+ * Make sure the site is usable — on a computer AND a phone.
+* Engage Users through Email
+ * Collect emails through the website.
+ * Regularly communicate via newsletter.
+*Reward the Brand Advocates/ Frequent Versi Users
+ * Offer a personal acknowledgement.
+ * Give public recognition through social media or your website.
+ * Implementing a loyalty program.
+ * Launch an “insiders” referral program.
+
+Finally research was done into choosing a suitable colour pallet for Versi. The team looked at the colours used by current social media sites- Facebook and Twitter blue, Whatsapp and iMessage green and Snapchat yellow. Research found that the colour purple has a relaxing/ tension relieving yet mentally energising effect. This colour was chosen to be the theme for Versi as the site aims to challenge users’ to share their opinions but at the same time be a place where they feel safe and comfortable to speak freely.
+(Art Therapy, 2016) 
+
+##User Testing Results##
+Once the Versi protype was built a series of user testing was conducted to assess the ussbility of the Versi site as well as the user experience. The site was tested with 20 participants between the ages of 18-60. The methods of testing used were observation, interview and survey. Within the observation method users were asked to navigate through the site, engage in discussions and attempt to join debates. Upon observation it was found that the majority of users were able to easily navigates through the pages, as well as to register and comment with no issues and is able to fully explore the website without any issues. Users were also easily able to understand the context and content of the site. One issue that users seemed to have a hard time figuring out was how the debating worked, users did not understand the original layout of the debates as well as where to find the relevant events. As a result this was redesigned in the final product. 
+Within the interview method, users were asked a series of questions after navigating through the site. These results showed that users found the website easy to navigate, with the exception of finding the different topics. This was fixed by implementing a dropdown box to get to each topic. Additionally users were able to easily understand the context of the website and found signing up to be fairly easy except for there being too many options on the registration and login pages. As a result these pages were redesigned to be more simple for users to use.
+The survey method seemed to show similar results as the previous methods of testing. Users found the site genreally easy to navigate and also found the registration and login forms to be too crowded. Additionally multiple users suggested upvote and downvote icons be added to the commenting sections.
+
+Overall users found the site clear and easy to use. They also found the content easy to understand and also found the context of Versi clear to interpret from the site.
+
+##Use Context##
+Users would use Versi when they want to get less off a biased opinion on a certain controversial topic.They would also be attracted to the site if they want to share their opinions on the topic with like-minded people and also if they want to be able to have discussions and debates on the topics with other users. 
+#Requirements#
+Below are a list of requirements derived from the research above:
+* The Versi site should be able to work on both web and mobile platforms 
+* The Versi site design must be consistent throughout the pages of the sites.
+* The site's features i.e. commenting, debate, logging in and registering, must be functional on all pages throughout the site.
+* The site will not use too many images or buttons that make the pages look overcrowded or cluttered and hence hard to read.
+* Comments will be hidden when they reach a certain amount so there will not be a never-ending string of comments.
+* Moderators and editors to post and upkeep the site i.e. post new facts to the site and monitor the debates.
+* Certain pages and functions will not be available to users who have not logged in to the site.
+* The Versi site will feature simple, easy to use navigation throughout on all the pages of the site.
+
+
+#References#
+AddThis Academy. (2016). Keep Visitors Coming Back To Your Website With These 5 Tips. Retrieved from AddThis Academy: http://www.addthis.com/academy/5-ways-to-keep-visitors-coming-back-to-your-website/
+Art Therapy. (2016). Art Therapy. Retrieved from Color Psychology: The Emotional Effects of Colors: http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/#.WBWac-F95E-
+Claywell, C. (2016). Pros and Cons of Anonymous Social Media. Retrieved from lovetoknow: http://socialnetworking.lovetoknow.com/about-social-networking/pros-cons-anonymous-social-media
+McNally, V. (2013, August 26). New Study Suggests Social Media Users Are Less Likely To Share Opinions. Retrieved from The Mary Sue: http://www.themarysue.com/social-media-opinions/
+Rouse, M. (2012, 09). Reddit. Retrieved from TechTarget: http://searchcio.techtarget.com/definition/Reddit
+Sjoberg, L. 2013, Reddit, Condé Nast Publications, Inc, San Francisco.
+Sveningsson, Malin. (2001). Creating a Sense of Community. Experiences from a Swedish Web Chat. Linköping: Linköping Studies in Art and Science.
+
+
+
+
+
 ##Tags##
 Social and Mobile: `#CSCW` `#interaction` `#discussion` `#debate` `#controversial`
 
