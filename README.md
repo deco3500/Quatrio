@@ -112,7 +112,18 @@ Overall users found the site clear and easy to use. They also found the content 
 
 ##Use Context##
 Users would use Versi when they want to get less off a biased opinion on a certain controversial topic.They would also be attracted to the site if they want to share their opinions on the topic with like-minded people and also if they want to be able to have discussions and debates on the topics with other users. 
- 
+#Requirements#
+Below are a list of requirements derived from the research above:
+* The Versi site should be able to work on both web and mobile platforms 
+* The Versi site design must be consistent throughout the pages of the sites.
+* The site's features i.e. commenting, debate, logging in and registering, must be functional on all pages throughout the site.
+* The site will not use too many images or buttons that make the pages look overcrowded or cluttered and hence hard to read.
+* Comments will be hidden when they reach a certain amount so there will not be a never-ending string of comments.
+* Moderators and editors to post and upkeep the site i.e. post new facts to the site and monitor the debates.
+* Certain pages and functions will not be available to users who have not logged in to the site.
+* The Versi site will feature simple, easy to use navigation throughout on all the pages of the site.
+
+
 #References#
 AddThis Academy. (2016). Keep Visitors Coming Back To Your Website With These 5 Tips. Retrieved from AddThis Academy: http://www.addthis.com/academy/5-ways-to-keep-visitors-coming-back-to-your-website/
 Art Therapy. (2016). Art Therapy. Retrieved from Color Psychology: The Emotional Effects of Colors: http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/#.WBWac-F95E-
