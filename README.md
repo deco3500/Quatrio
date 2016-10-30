@@ -112,6 +112,7 @@ Overall users found the site clear and easy to use. They also found the content 
 
 ##Use Context##
 Users would use Versi when they want to get less off a biased opinion on a certain controversial topic.They would also be attracted to the site if they want to share their opinions on the topic with like-minded people and also if they want to be able to have discussions and debates on the topics with other users. 
+
 #Requirements#
 Below are a list of requirements derived from the research above:
 * The Versi site should be able to work on both web and mobile platforms 
@@ -123,6 +124,8 @@ Below are a list of requirements derived from the research above:
 * Certain pages and functions will not be available to users who have not logged in to the site.
 * The Versi site will feature simple, easy to use navigation throughout on all the pages of the site.
 
+##Design Process##
+In addition to the decision behind the colour scheme, ultimately, a good user experience design is too make sure that users are automatically interested to the site at first glance and would want to scroll down to find out more to see what this site is really all about. An inspiration for Versi is reddit, however when analysing the design of their webpages, you can see that it is not too aesthetically-friendly. With that, the team decided that having too much text puts readers off from continuing on through their website. The trending section just shows the currently trending articles with an exerpt of the article/facts under each heading. A navigational wordmap is a list of keywords that helps users get around to what they want to see/find as each discussion thread is categorised under a few keywords. Overall, the design is pretty simple with easy navigation.
 
 #References#
 AddThis Academy. (2016). Keep Visitors Coming Back To Your Website With These 5 Tips. Retrieved from AddThis Academy: http://www.addthis.com/academy/5-ways-to-keep-visitors-coming-back-to-your-website/
