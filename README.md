@@ -141,13 +141,25 @@ In addition to the decision behind the colour scheme, ultimately, a good user ex
 
 ![Figure 6 Second Mockup of Discussion Home Page](https://cloud.githubusercontent.com/assets/13565436/19836521/9059d3ea-9eee-11e6-8b22-2388a9700139.png)
 
+#Promotional Website#
+http://versipromo.azurewebsites.net/
+
+#Versi Website#
+http://versi.azurewebsites.net/
+
 #References#
 AddThis Academy. (2016). Keep Visitors Coming Back To Your Website With These 5 Tips. Retrieved from AddThis Academy: http://www.addthis.com/academy/5-ways-to-keep-visitors-coming-back-to-your-website/
+
 Art Therapy. (2016). Art Therapy. Retrieved from Color Psychology: The Emotional Effects of Colors: http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/#.WBWac-F95E-
+
 Claywell, C. (2016). Pros and Cons of Anonymous Social Media. Retrieved from lovetoknow: http://socialnetworking.lovetoknow.com/about-social-networking/pros-cons-anonymous-social-media
+
 McNally, V. (2013, August 26). New Study Suggests Social Media Users Are Less Likely To Share Opinions. Retrieved from The Mary Sue: http://www.themarysue.com/social-media-opinions/
+
 Rouse, M. (2012, 09). Reddit. Retrieved from TechTarget: http://searchcio.techtarget.com/definition/Reddit
+
 Sjoberg, L. 2013, Reddit, Condé Nast Publications, Inc, San Francisco.
+
 Sveningsson, Malin. (2001). Creating a Sense of Community. Experiences from a Swedish Web Chat. Linköping: Linköping Studies in Art and Science.
 
 
